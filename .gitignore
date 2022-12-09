@@ -30,7 +30,6 @@ build/
 local.properties
 *.iml
 *.hprof
-.cxx/
 
 # node.js
 #
@@ -57,8 +56,13 @@ buck-out/
 **/fastlane/test_output
 
 # Bundle artifact
-*.jsbundle
+# *.jsbundle
 
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+
+/android/app/src/main/java/com/tarodemo/generated
+
+## taro-react-native-release
+!release/** 
